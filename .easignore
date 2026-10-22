@@ -1,0 +1,22 @@
+# Regenerate native Android files from app.json on the EAS builder.
+node_modules/
+.expo/
+.git/
+dist/
+web-build/
+/android/
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+.env*.local
+*.tsbuildinfo

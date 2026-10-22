@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Expo and Metro output
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Generated native folders (rebuilt from app.json by `npx expo prebuild` / EAS)
+/ios
+/android
+.kotlin/
+*.orig.*
+
+# Signing keys and certificates: never commit
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+
+# Local env files (the backend URL can be set here per machine)
+.env
+.env.*
+!.env.example
+
+# Build files and installers
+*.apk
+*.aab
+*.ipa
+*.deb
+
+# Tests, TypeScript and logs
+coverage/
+*.tsbuildinfo
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Editor and OS files
+.idea/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+
+# Left by the Expo template's reset-project script
+example
